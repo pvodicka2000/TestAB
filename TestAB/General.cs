@@ -11,5 +11,11 @@ namespace TestAB
             return dTime.Ticks;
         }
 
+        public static int GetRandom()
+        {
+            Random rand = new Random();
+            return rand.Next(1000);
+        }
+
     }
 }
